@@ -319,11 +319,12 @@ header p{
     color:rgb(194, 189, 189);
 }
 .about-content{
+    display:grid;
     color:rgb(198, 189, 189);
     background:rgba(255,255,255,0.14);
     width:800px;
     align-items: center;
-    justify-content:center;
+    justify-content:space-between;
 }
 @media(max-width:768px){
     header h1{
