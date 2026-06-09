@@ -326,6 +326,9 @@ header p{
     align-items: center;
     justify-content:space-between;
 }
+.category-radio{
+    color:white;
+}
 @media(max-width:768px){
     header h1{
         font-size:30px;
