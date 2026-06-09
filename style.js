@@ -76,9 +76,29 @@ const problems = [
         description:"Application become unresponsive frequentyly",
         solution:"1.Restart the application \n 2. Update software to Insert version\n 3. Check available disk space\n 4. Reinstall the application\n 5. Update drivers and OS\n 6. Disable hardware acceleration"
     },
+    {
     id:12,
         title:"Printer Not Printing",
         category:"Hardware",
         description:"Printer is offline or not responding",
-        solution:"1. Restart "
-]
+        solution:"1. Restart printer\n 2. Check paper and ink levels\n 3. Clear print queue\n 4. Reinstall printer drivers\n 5. Check USB connection\n 6. Reset printer to factroy settings "
+    }
+];
+function renderProblems(filterProblems){
+    const resultList = document.getElementById("resultList");
+    resultList.innerHTML = filteredProblems.map(problem => `
+        <div class ="problem-list">
+          <div class="problem-header">
+          <h3> class="problem-title">${problem.title}</h3>
+          <span class="category-ab">${problem.category}</span>
+            </div>
+            <p class="problem-description">${problem.description}</p>
+            <button class="solution-btn" onclick="showSolution(event,${problem.id})">Show Solution</button>
+            <div class="problem-solution" id="solution-${problem.id}">
+            <div class="solution-tt">Solution:</div>
+            <div class="solution-te">${problem.solution}</div>
+            </div>
+        </div>
+    `).join("");
+}
+function
