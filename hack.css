@@ -296,10 +296,34 @@ header p{
     font-size:20px;
     text-align:center;
    padding:10px;
-   color:rgb(206, 198, 198);
+   color:rgb(202, 193, 193);
+}
+.about-section{
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-top: 20px;
+}
+.about-section h2{
+    color:whitesmoke;
+    align-items: center;
+}
+.about-section p{
+    padding:10px;
+}
+.about-section li{
+    padding:10px;
+}
+.about-section strong{
+    color:rgb(194, 189, 189);
 }
 .about-content{
-    color:white;
+    color:rgb(198, 189, 189);
+    background:rgba(255,255,255,0.14);
+    width:800px;
+    align-items: center;
+    justify-content:center;
 }
 @media(max-width:768px){
     header h1{
