@@ -5,7 +5,7 @@
 }
 body{
     font-family:'Poppins',sans-serif;
-    background:#667eea;
+    background:#02386e;
     min-height:1080px;
     padding:20px;
 }
@@ -27,6 +27,7 @@ body{
     justify-content:flex-end;
     gap:20px;
     padding:20px 0;
+   
 }
 .navbar a{
     text-decoration:none;
@@ -45,30 +46,36 @@ body{
     border-radius:8px;
     box-shadow:0 20px 60px rgba(0,0,0,0.15);
     margin-bottom:40px;
+    align-items:center;
+    justify-content:center;
 }
 .header h1{
     font-size:48px;
     color:white;
     text-align:center;
     margin-bottom:15px;
+    font-style: bold;
+    text-transform:uppercase;
 }
 .header p{
     font-size:18px;
     color:rgba(255, 255, 255, 0.858);
     max-width:760px;
     text-align:center;
+    align-items:center;
     line-height:1.5;
+    padding-left: 20px;
 }
 .solver{
     color:#f7fbff;
     text-transform:uppercase;
     font-size:15px;
+    text-align:center;
     margin-bottom:12px;
 }
 .header-solver{
-    display:flex;
     gap:20px;
-    margin-bottom:20px;
+    margin: 10px;
 }
 .btn{
     display:inline-flex;
@@ -79,19 +86,24 @@ body{
     text-decoration:none;
     font-weight:700;
     transition:0.3s;
-    background:white;
-    color:#667eea;
+    background:red;
+    color:white;
 }
 .btn:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
     color:aqua
+}
+.category{
+    margin-bottom:40px;
 }
  .category h2{
     color:white;
     margin-bottom:20px;
     font-size:25px;
     text-decoration:none;
+    padding-bottom: 20px;
 }
+
  .category-list a{
     display:inline;
     gap:16px;
@@ -103,7 +115,7 @@ body{
     padding:40px;
     margin-right:10px;
     border-radius:8px;
-    color:white;
+    color:black;
     font-size:16px;
     font-weight:700;
     text-decoration:none;
@@ -113,16 +125,13 @@ body{
  .category-list :hover{
     transform:translateY(-5px);
     opacity:0.95;
+    background:rgb(217, 212, 212);
 }
-.category-list a.network{
-    background:#4f8cff;
+.category-list a{
+    background:white;
     
 }
-.category-list a.hardware{background:#ff8c42;}
-.category-list a.software{background:#7c5cff;}
-.category-list a.security{background:#ff5a8c;}
-.category-list a.performance{background:#34d399;}
-  
+
 .category-li{
    display:contents;
     gap:16px;
@@ -139,6 +148,24 @@ body{
     font-weight:700;
     
 }
+.category-li a{
+    display:inline;
+    text-decoration:none;
+    min-height: 120px;
+    width:50px;
+    align-items:center;
+    padding:40px;
+    margin-right:10px;
+    border: 1px solid white;
+    border-radius:8px;
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    padding: 20px;
+    text-decoration:none;
+    background:white;
+    color:black;
+}
 .category-item{
     display:flex;
     align-items:center;
@@ -154,8 +181,7 @@ body{
     transition: transform 0.2s;
 }
 .category-item:hover{
-    transform:translateY(-5px);
-   background:rgba(255,255,255,0.22);
+   background:rgba(24, 193, 196, 0.22);
 }
 .problem-list{
     margin-top:30px;
