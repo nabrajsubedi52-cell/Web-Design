@@ -29,7 +29,7 @@
                 <a class="category-item performance">Performance</a>
             </div>
         </section>
-        <section class="category-radio">
+        <!-- <section class="category-radio">
             <input type="radio" name="category" value="all">
            <label>All</label>
            <input type="radio" name="category" value="network">
@@ -43,10 +43,11 @@
              <input type="radio" name="category" value="Performance">
              <label>Performance</label>
              
-        </section>
+        </section> -->
         <section class="problem-list">
             <h2>Common problems</h2>
-            <!-- <details class="problem-type" open>
+             <!-- <div id="resultsList" class="results-list"></div> -->
+             <details class="problem-type" open>
                 <summary>Internet Connection Not Working
                     <span class="category-type">network</span>
                 </summary>
@@ -60,7 +61,24 @@
                        <li>If still not working,contact ISP.</li>
                 </ol>
                </div>
-            </details>
+            </details> 
+             <details class="problem-type" open>
+                <summary>Weak WiFi Signal
+                    <span class="category-type">network</span>
+                </summary>
+                <p>WiFi signal is to weak or keep dropping</p>
+               <div class="solution">
+                <h4>Solution:</h4>
+                <ol>
+                    <li>Move closer to router.</li>
+                     <li> Remove obstacles between and router.</li>
+                      <li> Restart router.</li>
+                       <li>Change WiFi channel(2.4GHz:1,6,11).</li>
+                       <li>Upate router firmwar.</li>
+                       <li> Consider WiFi extender or mesh network.</li>
+                </ol>
+               </div>
+            </details> 
             <details class="problem-type">
                 <summary>
                     Computer Running slow
@@ -79,7 +97,41 @@
                     </ol>
                 </div>
             </details>
-            
+            <details class="problem-type">
+                <summary>
+                   Password Keeps Getting Hacke
+                    <span class="category-type">Security</span>
+                </summary>
+                <p>Account compromised despite changing password.</p>
+                <div class="solution">
+                    <h4>Solution:</h4>
+                    <ol>
+                        <li>Change password from secure device.</li>
+                        <li>Enable 2-factor authentication.</li>
+                        <li>Run malware scan.</li>
+                        <li> Check browser extensions.</li>
+                         <li>Review account activity logs.</li>
+                         <li>Use unique strong password.</li>
+                    </ol>
+                </div>
+            </details>
+                <details class="problem-type">
+                <summary>
+                   Suspicious Pop-ups Appearing
+                    <span class="category-type">Security</span>
+                </summary>
+                <p>Unwanted advertisments and pop-ups on browser.</p>
+                <div class="solution">
+                    <h4>Solution:</h4>
+                    <ol>
+                        <li>Clear browser cache and cookies.</li>
+                        <li> Remove browser extensions.</li>
+                        <li>Run antivirus scan.</li>
+                        <li> Update browser setting for unwanted homepae.</li>
+                         <li>Install blocker extension.</li>
+                    </ol>
+                </div>
+            </details>
              <details class="problem-type">
                 <summary>
                     WiFi Password Not Accepted
@@ -116,6 +168,78 @@
                     </ol>
                 </div>
               </details>
+              <details class="problem-type">
+                <summary>
+                    Screen Display Issues
+                    <span class="category-type">hardware</span>
+                </summary>
+                <p>Moniter not displaying correctly or no signa.</p>
+                <div class="solution">
+                    <h4>Solution:</h4>
+                    <ol>
+                        <li>Check monitor power cable and connections.</li>
+                        <li>Verify HDMI/Display Port connectionsr.</li>
+                        <li>Restart computer.</li>
+                        <li>Update graphics drivers.</li>
+                         <li>Try different display cable.</li>
+                         <li> Test with external monitor.</li>
+                    </ol>
+                </div>
+              </details>
+              <details class="problem-type">
+                <summary>
+                   Keyboard or Mouse Not Working
+                    <span class="category-type">hardware</span>
+                </summary>
+                <p>Input devices are not responding.</p>
+                <div class="solution">
+                    <h4>Solution:</h4>
+                    <ol>
+                        <li>Check device batteries/power.</li>
+                        <li> Restart Computer/laptop.</li>
+                        <li> Reconnect USB cable or re-pair wirless device.</li>
+                        <li>Update device drivers.</li>
+                         <li>Check device Manager for errors.</li>
+                         <li> Try different USB port.</li>
+                    </ol>
+                </div>
+              </details>
+              <details class="problem-type">
+                <summary>
+                    Software freezes or Crashes
+                    <span class="category-type">Software</span>
+                </summary>
+                    <p>Application become unresponsive frequentyly</p>
+                    <div class="solution">
+                        <h4>Solution:</h4>
+                    <ol>
+                        <li>Restart the application.</li>
+                        <li> Update software to Insert version.</li>
+                        <li>Check available disk space.</li>
+                        <li>Reinstall the application.</li>
+                         <li>Update drivers and OS.</li>
+                         <li>Disable hardware acceleration.</li>
+                    </ol>
+                </div>
+                </details>
+                <details class="problem-type">
+                <summary>
+                    Software freezes or Crashes
+                    <span class="category-type">Software</span>
+                </summary>
+                    <p>Application become unresponsive frequentyly</p>
+                    <div class="solution">
+                        <h4>Solution:</h4>
+                    <ol>
+                        <li>Restart the application.</li>
+                        <li> Update software to Insert version.</li>
+                        <li>Check available disk space.</li>
+                        <li>Reinstall the application.</li>
+                         <li>Update drivers and OS.</li>
+                         <li>Disable hardware acceleration.</li>
+                    </ol>
+                </div>
+                </details>
                 <details class="problem-type">
                 <summary>
                     Files Suddenly Missing
@@ -134,12 +258,13 @@
                     </ol>
                 </div>
                 </details>
+            
               <footer class="For-Contact" id="Footer">
             <h1> Contact Us</h1>
             <p><i class="fa-solid fa-phone"></i>+9779762890283</p>
             <p><i class="fa-brands fa-whatsapp"></i>+9779742208232</p>
             <p><i class="fa-regular fa-envelope"></i>nabrajsubedi961@gmail.com</p>
-        </footer> -->
+        </footer> 
         </section>
     </div>
 
