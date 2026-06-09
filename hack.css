@@ -6,7 +6,7 @@
 body{
     font-family:'Poppins',sans-serif;
     background:#02386e;
-    min-height:1080px;
+    /* min-height:1080px; */
     padding:20px;
 }
 .logo{
@@ -284,6 +284,9 @@ header p{
     white-space:nowrap;
 
 }
+.For-Contact{
+    background:
+}
 .For-Contact h1{
     font-size:50px;
     text-align:center;
@@ -296,6 +299,9 @@ header p{
     text-align:center;
    padding:10px;
    color:rgb(206, 198, 198);
+}
+.about-content{
+    color:white;
 }
 @media(max-width:768px){
     header h1{
