@@ -101,4 +101,10 @@ function renderProblems(filterProblems){
         </div>
     `).join("");
 }
-function
+function showsolution(event,id){
+    const solutionDiv = document.getElementById(`solution-${id}`);
+    if(!solutionDiv) retrun;
+     const button=event.currentTarget || event.target;
+     solutionDiv.classList.toggle('show');
+     button.textContent = solutionDiv.classLList.contains('show') ? 'hide solution' : 'show solution';
+}
