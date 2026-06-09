@@ -284,6 +284,17 @@ header p{
     white-space:nowrap;
 
 }
+.For-Contact h1{
+    font-size:50px;
+    text-align:center;
+    /* margin-bottom: 50px; */
+    padding-top:100px;
+}
+.For-Contact p{
+    font-size:20px;
+    text-align:center;
+   padding:10px;
+}
 @media(max-width:768px){
     header h1{
         font-size:30px;
